@@ -115,7 +115,7 @@ export const LeftMenu: FC = () => {
           <div>
             {' '}
             <Zdj src="./media/icons/publications.png" alt="" />{' '}
-            <Link to="/settings">Your publcations</Link>{' '}
+            <span>Your publcations</span>{' '}
             <Zdj2 src="./media/icons/plus.png" alt="" />{' '}
           </div>
         </div>

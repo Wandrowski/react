@@ -5,6 +5,7 @@ import 'slick-carousel/slick/slick-theme.css'
 import styled from 'styled-components'
 
 import { Colors } from '../../styledHelpers/Colors'
+import { Link } from 'react-router-dom'
 
 const WorkspacesWrapper = styled.div`
   max-width: 1050px;
@@ -76,6 +77,7 @@ export class WorkspacesSlider extends Component {
       <WorkspacesWrapper>
         <h4> Workspaces</h4>
         <Slider {...settings}>
+			<Link to="/workspace">
           <WorkspacesBox>
             <img
               src="./media/icons/pies.png"
@@ -99,6 +101,8 @@ export class WorkspacesSlider extends Component {
               <BoxLastUpdate>Last update 3 days ago</BoxLastUpdate>
             </div>
           </WorkspacesBox>
+		  </Link>
+		  <Link to="/workspace">
           <WorkspacesBox>
             <img
               src="./media/icons/pies.png"
@@ -122,6 +126,8 @@ export class WorkspacesSlider extends Component {
               <BoxLastUpdate>Last update 2 days ago</BoxLastUpdate>
             </div>
           </WorkspacesBox>
+		  </Link>
+		  <Link to="/workspace">
           <WorkspacesBox>
             <img
               src="./media/icons/pies.png"
@@ -145,6 +151,8 @@ export class WorkspacesSlider extends Component {
               <BoxLastUpdate>Last update 3 days ago</BoxLastUpdate>
             </div>
           </WorkspacesBox>
+		  </Link>
+		  <Link to="/workspace">
           <WorkspacesBox>
             <img
               src="./media/icons/pies.png"
@@ -168,6 +176,8 @@ export class WorkspacesSlider extends Component {
               <BoxLastUpdate>Last update 3 days ago</BoxLastUpdate>
             </div>
           </WorkspacesBox>
+		  </Link>
+		  <Link to="/workspace">
           <WorkspacesBox>
             <img
               src="./media/icons/pies.png"
@@ -191,6 +201,8 @@ export class WorkspacesSlider extends Component {
               <BoxLastUpdate>Last update 3 days ago</BoxLastUpdate>
             </div>
           </WorkspacesBox>
+		  </Link>
+		  <Link to="/workspace">
           <WorkspacesBox>
             <img
               src="./media/icons/pies.png"
@@ -214,6 +226,8 @@ export class WorkspacesSlider extends Component {
               <BoxLastUpdate>Last update 3 days ago</BoxLastUpdate>
             </div>
           </WorkspacesBox>
+		  </Link>
+		  <Link to="/workspace">
           <WorkspacesBox>
             <img
               src="./media/icons/pies.png"
@@ -237,6 +251,8 @@ export class WorkspacesSlider extends Component {
               <BoxLastUpdate>Last update 3 days ago</BoxLastUpdate>
             </div>
           </WorkspacesBox>
+		  </Link>
+		  <Link to="/workspace">
           <WorkspacesBox>
             <img
               src="./media/icons/pies.png"
@@ -260,6 +276,8 @@ export class WorkspacesSlider extends Component {
               <BoxLastUpdate>Last update 3 days ago</BoxLastUpdate>
             </div>
           </WorkspacesBox>
+		  </Link>
+		  <Link to="/workspace">
           <WorkspacesBox>
             <img
               src="./media/icons/pies.png"
@@ -283,6 +301,7 @@ export class WorkspacesSlider extends Component {
               <BoxLastUpdate>Last update 3 days ago</BoxLastUpdate>
             </div>
           </WorkspacesBox>
+		  </Link>
         </Slider>
       </WorkspacesWrapper>
     )

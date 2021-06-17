@@ -77,7 +77,7 @@ const MainPage: FC = () => {
 
           <Switch>
             <Route path="/people">your network component</Route>
-            <Route path="/settings">
+            <Route path="/workspace">
               <Content2>
                 <Workspaces />
                 <ResumeYourWork heading="Latest updates" />
