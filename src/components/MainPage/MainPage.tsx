@@ -83,7 +83,7 @@ const MainPage: FC = () => {
                 <ResumeYourWork heading="Latest updates" />
               </Content2>
             </Route>
-            <Route path="/ecosystem">
+            <Route path="/profile">
               <Profile />
             </Route>
             <Route path="/entities">

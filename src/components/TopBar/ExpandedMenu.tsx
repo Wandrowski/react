@@ -11,6 +11,7 @@ const ExpandedMenuWrapper = styled.div`
   width: 200px;
   border: 1px solid grey;
   position: fixed;
+  background:white;
 `
 
 const ExpandedMenuContet = styled.div`
@@ -151,59 +152,6 @@ export const ExpandedMenu: FC = () => {
                 alt=""
               />
               <Link to="/e">Client contract</Link>
-            </MenuItem>
-            <MenuItem>
-              <img
-                src="./media/icons/contract.png"
-                style={{ marginRight: '10px' }}
-                alt=""
-              />
-              <Link to="/e">Client contract</Link>
-            </MenuItem>
-          </MenuItem>
-        </Scroll>
-        <div className="newsection"></div>
-        <ItemLink></ItemLink>
-        <NewSection>Account</NewSection>
-        <MenuItem>
-          <Link to="/profile">
-            <ItemsWrapper>
-              <img
-                style={{ width: '20px', height: '25px', marginRight: '10px' }}
-                src="./media/icons/czl.png"
-                alt=""
-              />
-              <div>
-                <div>Humberta Swift</div>
-                <div>See profile</div>
-              </div>
-            </ItemsWrapper>
-          </Link>
-        </MenuItem>
-        <MenuItem>
-          <img
-            src="./media/icons/privacy.png"
-            style={{ marginRight: '10px' }}
-            alt=""
-          />
-          Privacy
-        </MenuItem>
-        <MenuItem>
-          <img
-            src="./media/icons/settings.png"
-            style={{ marginRight: '10px' }}
-            alt=""
-          />
-          Settings
-        </MenuItem>
-        <ItemLink></ItemLink>
-        <Logout>
-          <img src="./Media/icons/logout.png" alt="" /> Logout
-        </Logout>
-      </ExpandedMenuContet>
-    </ExpandedMenuWrapper>
-  )
-}
             </MenuItem>
             <MenuItem>
               <img
